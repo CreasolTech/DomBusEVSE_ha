@@ -1,0 +1,110 @@
+
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+# INCLUDE dombus1.yaml with DomBusEVSE entity
+modbus: !include dombus1.yaml
+
+logger:
+    default: debug
+    logs:
+        homeassistant.components.modbus: debug
+        pymodbus: debug
+
+# CREATE some helpers
+input_number:
+  evmaxcurrent: # Range: 6-36A
+    name: EVMaxCurrent
+    initial: 16
+    min: 6
+    max: 36
+    step: 1
+  evmaxgridpower: # Range: 1000-25000W
+    name: EVMaxGridPower
+    initial: 3300
+    min: 3000
+    max: 8000
+    step: 100
+  evstartpower: # Range: 800-25000W
+    name: EVStartPower
+    initial: 1600
+    min: 800
+    max: 4000
+    step: 100
+  evstoptime: # Range: 5-600s
+    name: EVStopTime
+    initial: 90
+    min: 5
+    max: 900
+    step: 5
+  evautostart: # Range: 0-1
+    name: EVAutoStart
+    initial: 1
+    min: 0
+    max: 1
+    step: 1
+  evmaxpower2: # Range: 0-25000W
+    name: EVMaxPower2
+    initial: 0
+    min: 0
+    max: 8000
+    step: 100
+  evmaxpowertime: # Range: 0-43200s
+    name: EVMaxPowerTime
+    initial: 0
+    min: 0
+    max: 43200
+    step: 60
+  evmaxpowertime2: # Range: 0-43200s
+    name: EVMaxPowerTime2
+    initial: 0
+    min: 0
+    max: 43200
+    step: 60
+  evwaittime: # Range: 3-60s
+    name: EVWaitTime
+    initial: 7
+    min: 3
+    max: 60
+    step: 1
+input_select:
+  evstatename:
+    name: EVStateName
+    options:
+    - "Off"
+    - Disconnected
+    - Connected
+    - Charging
+    - Charging+Vent
+    - Alarm EV
+    - Alarm Power Outage
+    - Alarm Welded
+    initial: Disconnected
+  evmodename:
+    name: EVModeName
+    options:
+    - "Off"
+    - Solar
+    - 25%
+    - 50%
+    - 75%
+    - 100%
+    - Managed
+    initial: "Off"
+input_button:
+  evmodeset:
+    name: EVModeSet
+
+

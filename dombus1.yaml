@@ -1,0 +1,96 @@
+# Entities for DomBusEVSE module
+# Should be included from configuration.yaml using
+# adding the 
+# line modbus: !include dombus1.yaml
+
+- name: "dombus1"
+  type: serial
+  baudrate: 115200
+  bytesize: 8
+  method: rtu
+  parity: N
+  port: /dev/ttyUSB1
+  stopbits: 1
+  lights:
+    - name: EVRL2
+      unique_id: 2270001
+      slave: 227
+      address: 1
+      scan_interval: 60
+  binary_sensors:
+    - name: EVCharging
+      unique_id: 2270000
+      slave: 227
+      address: 0
+      scan_interval: 5
+      device_class: battery_charging
+    - name: EVInAC
+      unique_id: 2270002
+      slave: 227
+      address: 2
+      scan_interval: 5
+      device_class: power
+  sensors:
+# output = scale * value + offset	
+    - name: EVMode
+      unique_id: 2270003
+      slave: 227
+      address: 3
+      scan_interval: 5
+    - name: EVState
+      unique_id: 2270004
+      slave: 227
+      address: 4
+      scan_interval: 5
+    - name: EVCurrent
+      unique_id: 2270005
+      slave: 227
+      address: 5
+      scan_interval: 5
+      unit_of_measurement: "A"
+      device_class: current
+    - name: EVPower
+      unique_id: 2270006
+      slave: 227
+      address: 6
+      scan_interval: 5
+      device_class: power
+      unit_of_measurement: "W"
+    - name: EVPowerSolar
+      unique_id: 2270007
+      slave: 227
+      address: 7
+      scan_interval: 5
+      device_class: power
+      unit_of_measurement: "W"
+    - name: EVPowerGrid
+      unique_id: 2270008
+      slave: 227
+      address: 8
+      scan_interval: 5
+      device_class: power
+      unit_of_measurement: "W"
+    - name: EVVoltage
+      unique_id: 2270009
+      slave: 227
+      address: 9
+      scan_interval: 10
+      device_class: voltage
+      unit_of_measurement: "V"
+    - name: EVPF
+      unique_id: 2270010
+      slave: 227
+      address: 10
+      scan_interval: 10
+      device_class: power_factor
+      unit_of_measurement: "%"
+      scale: 0.1
+    - name: Grid Power
+      unique_id: 2270011
+      slave: 227
+      address: 11
+      scan_interval: 5
+      device_class: power
+      unit_of_measurement: "W"
+
+

@@ -1,0 +1,77 @@
+title: Wallbox
+views:
+  - path: default_view
+    title: Home
+    cards:
+      - type: entities
+        entities:
+          - entity: input_select.evmodename
+          - entity: input_button.evmodeset
+          - entity: input_select.evstatename
+          - entity: binary_sensor.evcharging
+          - entity: light.evrl2
+          - entity: sensor.grid_power
+        title: DomBusEVSE
+      - type: entities
+        entities:
+          - entity: input_number.evmaxcurrent
+          - entity: input_number.evmaxgridpower
+          - entity: input_number.evstartpower
+          - entity: input_number.evstoptime
+          - entity: input_number.evautostart
+          - entity: input_number.evmaxpower2
+          - entity: input_number.evmaxpowertime
+          - entity: input_number.evmaxpowertime2
+        title: DomBusEVSE configuration
+      - type: gauge
+        entity: sensor.evpower
+        max: 8000
+        needle: true
+        severity:
+          green: 0
+          yellow: 6000
+          red: 6600
+      - type: gauge
+        entity: sensor.evpowersolar
+        max: 6000
+        needle: true
+        severity:
+          green: 0
+          yellow: 25000
+          red: 25000
+      - type: gauge
+        entity: sensor.evcurrent
+        min: 0
+        max: 40
+        needle: true
+        severity:
+          green: 6
+          yellow: 28
+          red: 32
+      - type: gauge
+        entity: sensor.evpowergrid
+        max: 8000
+        needle: true
+        severity:
+          green: 0
+          yellow: 0
+          red: 6600
+      - type: gauge
+        entity: sensor.evpf
+        min: 80
+        max: 100
+        needle: true
+        severity:
+          green: 98
+          yellow: 96
+          red: 0
+      - type: gauge
+        entity: sensor.evvoltage
+        min: 210
+        max: 253
+        needle: true
+        severity:
+          green: 230
+          yellow: 220
+          red: 0
+
