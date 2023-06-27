@@ -1,5 +1,6 @@
 # DomBusEVSE_ha
 Home Assistant configuration files for DomBusEVSE module used to make a DIY smart wallbox charging station
+[![alt DomBusEVSE DIY wallbox home-made](https://images.creasol.it/creDomBusEVSE_dashboard1.png "Modulo EVSE per autocostruirsi una smart wallbox")](https://www.creasol.it/en/support/domotics-home-automation-and-diy/making-a-diy-homemade-wallbox-working-with-home-assistant)
 
 More information in the web pages:
 
@@ -13,5 +14,4 @@ More information in the web pages:
 * **automations.yaml** contains some automations to configure the module
 * **dashboard_wallbox.yaml** contains a dashboard with main controls for the DomBusEVSE module
 
-[![alt DomBusEVSE DIY wallbox home-made](https://images.creasol.it/creDomBusEVSE_dashboard1.png "Modulo EVSE per autocostruirsi una smart wallbox")](https://www.creasol.it/en/support/domotics-home-automation-and-diy/making-a-diy-homemade-wallbox-working-with-home-assistant)
 
