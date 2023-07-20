@@ -22,7 +22,33 @@ More information in the web pages:
 [![DomBusEVSE connections](https://images.creasol.it/creDomBusEVSE_wallbox_photo_ha.jpg "DIY wallbox using Creasol DomBusEVSE module with Home Assistant")](https://www.creasol.it/en/?view=article&option=com_content&id=160)
 
 # Other DomBus modules that can be used with Home Assistant
-## DomBus12 - 9 I/Os
-[![DomBus12 module with 9 I/Os](https://images.creasol.it/creDomBus12_200.webp)](https://store.creasol.it/DomBus12)
-Compact module with 9 ports, that can be configured as analog/digital inputs, pushbutton and UP/DOWN pushbutton, counters (water, gas, S0 energy, ...), NTC temperature and ultrasonic distance sensors. 2 ports are configured by default as open-drain output and can drive up to 200mA led strip (with dimming function) or can be connected to the external module DomRelay2 to control 2 relays.
+
+## DomBusTH - Compact board to be placed on a blank cover, with temperature and humidity sensor and RGW LEDs
+<a href="https://store.creasol.it/DomBusTH"><img src="https://images.creasol.it/creDomBusTH6_200.png" alt="DomBusTH domotic board with temperature and humidity sensor, 3 LEDs, 6 I/O" style="float: left; margin-right: 2em;"></a>
+Compact board, 32x17mm, to be installed on blank cover with a 4mm hole in the middle, to exchange air for the relative humidity sensor. Includes:
+* temperature and relative humidity sensor
+* red, green and white LEDs
+* 4 I/Os configurable as analog or digital inputs, pushbuttons, counters (water, gas, S0 energy, ...), NTC temperature and ultrasonic distance sensors
+* 2 ports are configured by default as open-drain output and can drive up to 200mA led strip (with dimming function) or can be connected to the external module DomRelay2 to control 2 relays; they can also be configured as analog/digital inputs, pushbuttons and distance sensors.
+<br clear="all"/>
+
+## DomBus12 - Compact domotic module with 9 I/Os
+<a href="https://store.creasol.it/DomBus12"><img src="https://images.creasol.it/creDomBus12_200.webp" alt="DomBus12 domotic module with 9 I/O" style="float: left; margin-right: 2em;"></a>
+9 ports that can be configured by software as:
+* analog/digital inputs
+* pushbutton and UP/DOWN pushbutton
+* counters (water, gas, S0 energy, ...)
+* NTC temperature and ultrasonic distance sensors
+* 2 ports are configured by default as open-drain output and can drive up to 200mA led strip (with dimming function) or can be connected to the external module DomRelay2 to control 2 relays.
+<br clear="all"/>
+
+## DomBus23 - Domotic module with many functions
+<a href="https://store.creasol.it/DomBus23"><img src="https://images.creasol.it/creDomBus23_400.webp" alt="DomBus23 domotic module with many functions" style="float: left; margin-right: 2em; vertical-align: middle;"></a>
+* 2x relays SPST 5A
+* 1x 10A 30V mosfet (led stripe dimming)
+* 2x 0-10V analog output: each one can be configured as open-drain output to control external relay
+* 2x I/O lines, configurable as analog/digital inputs, temperature/distance sensor, counter, ...
+* 2x low voltage AC/DC opto-isolated inputs, 9-40V
+* 1x 230V AC opto-isolated input
+<br clear="all"/>
 
