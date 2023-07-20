@@ -14,4 +14,15 @@ More information in the web pages:
 * **automations.yaml** contains some automations to configure the module
 * **dashboard_wallbox.yaml** contains a dashboard with main controls for the DomBusEVSE module
 
+# DomBusEVSE
+## Youtube video showing DomBusEVSE working with Domoticz 
+[![How DomBusEVSE works - Video using Domoticz, in this case](https://img.youtube.com/vi/m_n_A4lo9Gw/0.jpg)](https://youtu.be/m_n_A4lo9Gw)
+
+## Home made wallbox using DomBusEVSE and Home Assistant
+[![DomBusEVSE connections](https://images.creasol.it/creDomBusEVSE_wallbox_photo_ha.jpg "DIY wallbox using Creasol DomBusEVSE module with Home Assistant")](https://www.creasol.it/en/?view=article&option=com_content&id=160)
+
+# Other DomBus modules that can be used with Home Assistant
+## DomBus12 - 9 I/Os
+[![DomBus12 module with 9 I/Os](https://images.creasol.it/creDomBus12_200.webp)](https://store.creasol.it/DomBus12)
+Compact module with 9 ports, that can be configured as analog/digital inputs, pushbutton and UP/DOWN pushbutton, counters (water, gas, S0 energy, ...), NTC temperature and ultrasonic distance sensors. 2 ports are configured by default as open-drain output and can drive up to 200mA led strip (with dimming function) or can be connected to the external module DomRelay2 to control 2 relays.
 
