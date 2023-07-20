@@ -25,11 +25,13 @@ More information in the web pages:
 
 ## DomBusTH - Compact board to be placed on a blank cover, with temperature and humidity sensor and RGW LEDs
 <a href="https://store.creasol.it/DomBusTH"><img src="https://images.creasol.it/creDomBusTH6_200.png" alt="DomBusTH domotic board with temperature and humidity sensor, 3 LEDs, 6 I/O" style="float: left; margin-right: 2em;"></a>
+<div>
 Compact board, 32x17mm, to be installed on blank cover with a 4mm hole in the middle, to exchange air for the relative humidity sensor. Includes:
 * temperature and relative humidity sensor
 * red, green and white LEDs
 * 4 I/Os configurable as analog or digital inputs, pushbuttons, counters (water, gas, S0 energy, ...), NTC temperature and ultrasonic distance sensors
 * 2 ports are configured by default as open-drain output and can drive up to 200mA led strip (with dimming function) or can be connected to the external module DomRelay2 to control 2 relays; they can also be configured as analog/digital inputs, pushbuttons and distance sensors.
+</div>
 <br clear="all"/>
 
 ## DomBus12 - Compact domotic module with 9 I/Os
