@@ -30,18 +30,18 @@ More information in the web pages:
 
 ## Creasol DomBus modules
 Our industrial and home automation modules are designed to be
-* very low power
-* reliable
-* bus connected (no radiofrequency interference, no battery to replace).
+* very low power (**around 10mW with relays OFF**)
+* reliable (**no disconnections**)
+* bus connected (**no radiofrequency interference, no battery to replace**).
 
 Modules are available in two version:
-1. with DomBus proprietary protocol, working with [Domoticz](https://www.domoticz.com) only
-2. with Modbus standard protocol, working with [Home Assistant](https://www.home-assistant.io), [OpenHAB](https://www.openhab.org), [Node-RED](https://nodered.org)
+1. with **DomBus proprietary protocol**, working with [Domoticz](https://www.domoticz.com) only
+2. with **Modbus standard protocol**, working with [Home Assistant](https://www.home-assistant.io), [OpenHAB](https://www.openhab.org), [Node-RED](https://nodered.org)
 
 [Store website](https://store.creasol.it/domotics) - [Information website](https://www.creasol.it/domotics)
 
 ### DomBusEVSE - EVSE module to build a Smart Wallbox / EV charging station
-<a href="https://store.creasol.it/DomBusEVSE"><img src="https://images.creasol.it/creDomBusEVSE_200.png" alt="DomBusEVSE smart EVSE module to make a Smart Wallbox EV Charging station" style="float: left; margin-right: 2em;"></a>
+<a href="https://store.creasol.it/DomBusEVSE"><img src="https://images.creasol.it/creDomBusEVSE_200.png" alt="DomBusEVSE smart EVSE module to make a Smart Wallbox EV Charging station" style="float: left; margin-right: 2em;" align="left" /></a>
 Complete solution to make a Smart EVSE, **charging the electric vehicle using only energy from renewable source (photovoltaic, wind, ...), or adding 25-50-75-100% of available power from the grid**.
 
 * Single-phase and three-phases, up to 36A (8kW or 22kW)
