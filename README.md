@@ -54,7 +54,7 @@ Complete solution to make a Smart EVSE, **charging the electric vehicle using on
 <br clear="all"/>
 
 ### DomBusTH - Compact board to be placed on a blank cover, with temperature and humidity sensor and RGW LEDs
-<a href="https://store.creasol.it/DomBusTH"><img src="https://images.creasol.it/creDomBusTH6_200.png" alt="DomBusTH domotic board with temperature and humidity sensor, 3 LEDs, 6 I/O" style="float: left; margin-right: 2em;"></a>
+<a href="https://store.creasol.it/DomBusTH"><img src="https://images.creasol.it/creDomBusTH6_200.png" alt="DomBusTH domotic board with temperature and humidity sensor, 3 LEDs, 6 I/O" style="float: left; margin-right: 2em;" align="left" /></a>
 Compact board, 32x17mm, to be installed on blank cover with a 4mm hole in the middle, to exchange air for the relative humidity sensor. It can be **installed in every room to monitor temperature and humidity, check alarm sensors, control blind motor UP/DOWN**, send notifications (using red and green leds) and activate **white led in case of power outage**.
 
 Includes:
@@ -65,7 +65,7 @@ Includes:
 <br clear="all"/>
 
 ### DomBus12 - Compact domotic module with 9 I/Os
-<a href="https://store.creasol.it/DomBus12"><img src="https://images.creasol.it/creDomBus12_400.webp" alt="DomBus12 domotic module with 9 I/O" style="float: left; margin-right: 2em;"></a>
+<a href="https://store.creasol.it/DomBus12"><img src="https://images.creasol.it/creDomBus12_400.webp" alt="DomBus12 domotic module with 9 I/O" style="float: left; margin-right: 2em;" align="left" /></a>
 **Very compact, versatile and cost-effective module with 9 ports**. Each port can be configured by software as:
 * analog/digital inputs
 * pushbutton and UP/DOWN pushbutton
@@ -75,7 +75,7 @@ Includes:
 <br clear="all"/>
 
 ### DomBus23 - Domotic module with many functions
-<a href="https://store.creasol.it/DomBus23"><img src="https://images.creasol.it/creDomBus23_400.webp" alt="DomBus23 domotic module with many functions" style="float: left; margin-right: 2em; vertical-align: middle;"></a>
+<a href="https://store.creasol.it/DomBus23"><img src="https://images.creasol.it/creDomBus23_400.webp" alt="DomBus23 domotic module with many functions" style="float: left; margin-right: 2em; vertical-align: middle;" align="left" /></a>
 Versatile module designed to control **gate or garage door**.
 * 2x relays SPST 5A
 * 1x 10A 30V mosfet (led stripe dimming)
@@ -86,7 +86,7 @@ Versatile module designed to control **gate or garage door**.
 <br clear="all"/>
 
 ### DomBus31 - Domotic module with 8 relays
-<a href="https://store.creasol.it/DomBus31"><img src="https://images.creasol.it/creDomBus31_400.webp" alt="DomBus31 domotic module with 8 relay outputs" style="float: left; margin-right: 2em; vertical-align: middle;"></a>
+<a href="https://store.creasol.it/DomBus31"><img src="https://images.creasol.it/creDomBus31_400.webp" alt="DomBus31 domotic module with 8 relay outputs" style="float: left; margin-right: 2em; vertical-align: middle;" align="left" /></a>
 DIN rail low profile module, with **8 relays and very low power consumption**:
 * 6x relays SPST 5A
 * 2x relays STDT 10A
@@ -95,7 +95,7 @@ DIN rail low profile module, with **8 relays and very low power consumption**:
 <br clear="all"/>
 
 ### DomBus32 - Domotic module with 3 relays
-<a href="https://store.creasol.it/DomBus32"><img src="https://images.creasol.it/creDomBus32_200.webp" alt="DomBus32 domotic module with 3 relay outputs" style="float: left; margin-right: 2em; vertical-align: middle;"></a>
+<a href="https://store.creasol.it/DomBus32"><img src="https://images.creasol.it/creDomBus32_200.webp" alt="DomBus32 domotic module with 3 relay outputs" style="float: left; margin-right: 2em; vertical-align: middle;" align="left" /></a>
 Versatile module with 230V inputs and outputs, and 5 low voltage I/Os.
 * 3x relays SPST 5A
 * 3x 115/230Vac optoisolated inputs
@@ -104,7 +104,7 @@ Versatile module with 230V inputs and outputs, and 5 low voltage I/Os.
 <br clear="all"/>
 
 ### DomBus33 - Module to domotize a light system using step relays
-<a href="https://store.creasol.it/DomBus33"><img src="https://images.creasol.it/creDomBus32_200.webp" alt="DomBus33 domotic module with 3 relay outputs that can control 3 lights" style="float: left; margin-right: 2em; vertical-align: middle;"></a>
+<a href="https://store.creasol.it/DomBus33"><img src="https://images.creasol.it/creDomBus32_200.webp" alt="DomBus33 domotic module with 3 relay outputs that can control 3 lights" style="float: left; margin-right: 2em; vertical-align: middle;" align="left" /></a>
 Module designed to **control 3 lights already existing and actually controlled by 230V pushbuttons and step-by-step relays**. In this way each light can be activated by existing pushbuttons, and by the domotic controller.
 * 3x relays SPST 5A
 * 3x 115/230Vac optoisolated inputs
@@ -115,7 +115,7 @@ Each relay can toggle the existing step-relay, switching the light On/Off. The o
 <br clear="all"/>
 
 ### DomBus36 - Domotic module with 12 relays
-<a href="https://store.creasol.it/DomBus36"><img src="https://images.creasol.it/creDomBus36_400.webp" alt="DomBus36 domotic module with 12 relay outputs" style="float: left; margin-right: 2em; vertical-align: middle;"></a>
+<a href="https://store.creasol.it/DomBus36"><img src="https://images.creasol.it/creDomBus36_400.webp" alt="DomBus36 domotic module with 12 relay outputs" style="float: left; margin-right: 2em; vertical-align: middle;" align="left" /></a>
 DIN rail module, low profile, with **12 relays outputs and very low power consumption**.
 * 12x relays SPST 5A
 * Relays are grouped in 3 blocks, with a single common per block, for easier wiring
@@ -124,7 +124,7 @@ DIN rail module, low profile, with **12 relays outputs and very low power consum
 <br clear="all"/>
 
 ### DomBus37 - 12 inputs, 3 115/230Vac inputs, 3 relay outputs
-<a href="https://store.creasol.it/DomBus37"><img src="https://images.creasol.it/creDomBus37_400.webp" alt="DomBus37 domotic module with 12 inputs, 3 AC inputs, 3 relay outputs" style="float: left; margin-right: 2em; vertical-align: middle;"></a>
+<a href="https://store.creasol.it/DomBus37"><img src="https://images.creasol.it/creDomBus37_400.webp" alt="DomBus37 domotic module with 12 inputs, 3 AC inputs, 3 relay outputs" style="float: left; margin-right: 2em; vertical-align: middle;" align="left" /></a>
 Module designed to be connected to alarm sensors (magnetc contact sensors, PIRs, tampers): it's able to monitor mains power supply (power outage / blackout) and also have 3 relays outputs.
 * 12x low voltage inputs (analog/digital inputs, buttons, alarm sensors, counters, temperature and distance sensors, ...)
 * 3x 115/230Vac optoisolated inputs
@@ -134,7 +134,7 @@ Module designed to be connected to alarm sensors (magnetc contact sensors, PIRs,
 <br clear="all"/>
 
 ### DomRelay2 - 2x relays board
-<a href="https://store.creasol.it/DomRelay2"><img src="https://images.creasol.it/creDomRelay22_200.png" alt="Relay board with 2 relays, to be used with DomBus domotic modules" style="float: left; margin-right: 2em; vertical-align: middle;"></a>
+<a href="https://store.creasol.it/DomRelay2"><img src="https://images.creasol.it/creDomRelay22_200.png" alt="Relay board with 2 relays, to be used with DomBus domotic modules" style="float: left; margin-right: 2em; vertical-align: middle;" align="left" /></a>
 Simple module with 2 relays, to be used with DomBus modules or other electronic boards with open-collector or open-drain outputs
 * 2x 5A 12V SPST relays (Normally Open contact)
 * Overvoltage protection (for inductive loads, like motors)
@@ -142,7 +142,7 @@ Simple module with 2 relays, to be used with DomBus modules or other electronic 
 <br clear="all"/>
 
 ### DomESP1 / DomESP2 - Board with relays and more for ESP8266 NodeMCU WiFi module
-<a href="https://store.creasol.it/DomESP1"><img src="https://images.creasol.it/creDomESP2_400.webp" alt="Relay board for ESP8266 NodeMCU module" style="float: left; margin-right: 2em; vertical-align: middle;"></a>
+<a href="https://store.creasol.it/DomESP1"><img src="https://images.creasol.it/creDomESP2_400.webp" alt="Relay board for ESP8266 NodeMCU module" style="float: left; margin-right: 2em; vertical-align: middle;" align="left" /></a>
 IoT board designed for NodeMCU v3 board using ESP8266 WiFi microcontroller
 * 9-24V input voltage, with high efficiency DC/DC regulator with 5V output
 * 4x SPST relays 5V with overvoltage protection
