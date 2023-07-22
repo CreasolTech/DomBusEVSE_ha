@@ -31,12 +31,14 @@ input_number:
     min: 6
     max: 36
     step: 1
+
   evmaxgridpower: # Range: 1000-25000W
     name: EVMaxGridPower
     initial: 3300
     min: 3000
     max: 8000
     step: 100
+
   evstartpower: # Range: 800-25000W
     name: EVStartPower
     initial: 1600
