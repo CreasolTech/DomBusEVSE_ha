@@ -21,10 +21,7 @@ More information in the web pages:
 ### Home made wallbox using DomBusEVSE and Home Assistant
 [![DomBusEVSE connections](https://images.creasol.it/creDomBusEVSE_wallbox_photo_ha.jpg "DIY wallbox using Creasol DomBusEVSE module with Home Assistant")](https://www.creasol.it/en/?view=article&option=com_content&id=160)
 
-
-
-
-
+[![DomBusEVSE connections schematic](https://images.creasol.it/creDomBusEVSE_blockAll.webp "Home-made smart wallbox using Creasol DomBusEVSE module with HomeAssistant")](https://www.creasol.it/en/?view=article&option=com_content&id=160)
 
 
 
