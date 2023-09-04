@@ -9,6 +9,8 @@ More information in the web pages:
 * [Creasol store](https://store.creasol.it/en/18-ev-electric-vehicles)
 
 ## Configuration files
+**DO NOT USE THESE CONFIGURATION FILES: PLEASE CHECK AT https://github.com/CreasolTech/DomBus_ha**
+
 * **configuration.yaml** with changes to include **dombus1.yaml** with all entities for DomBus modules connected to the same bus, and some helpers.
 * **dombus1.yaml** contains entities for all DomBus modules connected to this bus
 * **automations.yaml** contains some automations to configure the module
