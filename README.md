@@ -8,14 +8,6 @@ More information in the web pages:
 * [DomBusEVSE with Home Assistant](https://www.creasol.it/en/support/domotics-home-automation-and-diy/making-a-diy-homemade-wallbox-working-with-home-assistant)
 * [Creasol store](https://store.creasol.it/en/18-ev-electric-vehicles)
 
-## Configuration files
-**DO NOT USE THESE CONFIGURATION FILES: PLEASE CHECK AT https://github.com/CreasolTech/DomBus_ha**
-
-* **configuration.yaml** with changes to include **dombus1.yaml** with all entities for DomBus modules connected to the same bus, and some helpers.
-* **dombus1.yaml** contains entities for all DomBus modules connected to this bus
-* **automations.yaml** contains some automations to configure the module
-* **dashboard_wallbox.yaml** contains a dashboard with main controls for the DomBusEVSE module
-
 ## DomBusEVSE
 ### Youtube video showing DomBusEVSE working with Domoticz 
 [![How DomBusEVSE works - Video using Domoticz, in this case](https://img.youtube.com/vi/m_n_A4lo9Gw/0.jpg)](https://youtu.be/m_n_A4lo9Gw)
@@ -24,6 +16,14 @@ More information in the web pages:
 [![DomBusEVSE connections](https://images.creasol.it/creDomBusEVSE_wallbox_photo_ha.jpg "DIY wallbox using Creasol DomBusEVSE module with Home Assistant")](https://www.creasol.it/en/?view=article&option=com_content&id=160)
 
 [![DomBusEVSE connections schematic](https://images.creasol.it/creDomBusEVSE_blockAll.webp "Home-made smart wallbox using Creasol DomBusEVSE module with HomeAssistant")](https://www.creasol.it/en/?view=article&option=com_content&id=160)
+
+## Configuration files
+**DO NOT USE THESE CONFIGURATION FILES: PLEASE CHECK AT https://github.com/CreasolTech/DomBus_ha**
+
+* **configuration.yaml** with changes to include **dombus1.yaml** with all entities for DomBus modules connected to the same bus, and some helpers.
+* **dombus1.yaml** contains entities for all DomBus modules connected to this bus
+* **automations.yaml** contains some automations to configure the module
+* **dashboard_wallbox.yaml** contains a dashboard with main controls for the DomBusEVSE module
 
 
 
